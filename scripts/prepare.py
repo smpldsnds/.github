@@ -52,6 +52,18 @@ REPOSITORIES = [
         "license": "[CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/)"
     },
     {
+        "path": "hydrogen-drum-samples",
+        "source": "https://github.com/hydrogen-music/hydrogen",
+        "description": "Drum samples from the Hydrogen drum machine project",
+        "license": "[GPLv2+](https://github.com/hydrogen-music/hydrogen/blob/master/COPYING)"
+    },
+    {
+        "path": "sfzinstruments-tictokmen-retrodrums1",
+        "source": "https://github.com/sonic-pi-net/sonic-pi",
+        "description": "Samples from Sonic Pi software",
+        "license": "[CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/)"
+    },
+    {
         "path": "freepats-old-piano-fb",
         "source": "https://freepats.zenvoid.org/Piano/honky-tonk-piano.html",
         "description": "Historic piano with an honky-tonk tone",
