@@ -11,33 +11,51 @@ REPOSITORIES = [
     {
         "path": "sfzinstruments-greg-sullivan-e-pianos",
         "source": "https://github.com/sfzinstruments/GregSullivan.E-Pianos",
-        "description": "Greg Sullivan's electric pianos"
+        "description": "Greg Sullivan's electric pianos",
+        "license": "[CC 3.0 Unported](http://creativecommons.org/licenses/by/3.0/)"
     },
     {
         "path": "sfzinstruments-jlearman-jrhodes3d",
         "source": "https://github.com/sfzinstruments/jlearman.jRhodes3d",
-        "description": "J. Learman Rhodes: 1977 Rhodes Mark I Stage 73 electric piano"
+        "description": "J. Learman Rhodes: 1977 Rhodes Mark I Stage 73 electric piano",
+        "license": "[CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/)"
     },
     {
         "path": "sfzinstruments-splendid-grand-piano",
         "source": "https://github.com/sfzinstruments/SplendidGrandPiano",
-        "description": "AKAI Steinway samples with 4 velocity layers"
+        "description": "AKAI Steinway samples with 4 velocity layers",
+        "license": "[Public Domain](https://creativecommons.org/share-your-work/public-domain/)"
 
     },
     {
         "path": "archiveorg-mellotron",
         "source": "https://archive.org/details/mellotron-archive-cd-rom-nki-wav.-7z",
-        "description": "Mellotron Samples"
+        "description": "Mellotron Samples",
+        "license": "[Unknown](https://archive.org/details/mellotron-archive-cd-rom-nki-wav.-7z)"
     },
     {
         "path": "sgossner-vcsl",
         "source": "https://github.com/sgossner/VCSL",
-        "description": "The Versilian Community Sample Library"
+        "description": "The Versilian Community Sample Library",
+        "license": "[CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/)"
+    },
+    {
+        "path": "sfzinstruments-dsmolken-double-bass",
+        "source": "https://github.com/sfzinstruments/dsmolken.double-bass",
+        "description": "1958 Otto Rubner double bass played and mapped by D. Smolken.",
+        "license": "Royalty-free for all commercial and non-commercial use."
+    },
+    {
+        "path": "sonic-pi-samples",
+        "source": "https://github.com/sonic-pi-net/sonic-pi",
+        "description": "Samples from Sonic Pi software",
+        "license": "[CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/)"
     },
     {
         "path": "freepats-old-piano-fb",
         "source": "https://freepats.zenvoid.org/Piano/honky-tonk-piano.html",
-        "description": "Historic piano with an honky-tonk tone"
+        "description": "Historic piano with an honky-tonk tone",
+        "license": "[CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/)"
     }
 ]
 

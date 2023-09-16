@@ -4,8 +4,6 @@ README_HEADER = """
 
 ## A collection of open source or public domain samples deployed using github pages
 
-Repositories:
-
 """
 
 README_FOOTER = """
@@ -22,7 +20,8 @@ def prepare_profile_readme(repositories, destructive):
         repo_url = f"https://github.com/smpldsnds/{name}"
         description = repo["description"]
         source = repo["source"]
-        readme += f"- `[{name}]({repo_url})`: {description}. ([source]({source}))\n"
+        license = repo["license"]
+        readme += f"- [`{name}`]({repo_url}): {description}. License: {license}. ([source]({source}))\n"
 
         output_path = "./profile/README.md"
 
