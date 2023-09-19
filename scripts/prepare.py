@@ -1,3 +1,4 @@
+import os
 import sys
 from datetime import datetime
 
@@ -73,12 +74,17 @@ REPOSITORIES = [
 
 
 # All steps should be idempotent
-def run_steps(path, destructive=False):
-    print(f"Processing {path}...")
-    setup_shared_files(path, destructive)
-    convert_audio_files(path, destructive)
-    create_json_files(path, destructive)
-    generate_html_index(path, destructive)
+def run_steps_for_repo(repo_path, destructive=False):
+    print(f"Processing {repo_path}...")
+
+    # check if repo_path exists
+    if os.path.exists(repo_path):
+        setup_shared_files(repo_path, destructive)
+        convert_audio_files(repo_path, destructive)
+        create_json_files(repo_path, destructive)
+        generate_html_index(repo_path, destructive)
+    else:
+        print(f"Folder {repo_path} not found. Skipping.")
 
 
 def main():
@@ -96,8 +102,9 @@ def main():
     print(f"Destructive: {destructive}")
     for repo in REPOSITORIES:
         path = f"../{repo['path']}"
-        run_steps(path, destructive)
-        prepare_profile_readme(REPOSITORIES, destructive)
+        run_steps_for_repo(path, destructive)
+
+    prepare_profile_readme(REPOSITORIES, destructive)
 
     if not destructive:
         print(f"Run this script again with the --destructive flag to perform actions:")
