@@ -3,6 +3,7 @@
 ## A collection of open source or public domain samples deployed using github pages
 
 - [`sfzinstruments-dsmolken-double-bass`](https://github.com/smpldsnds/sfzinstruments-dsmolken-double-bass): 1958 Otto Rubner double bass played and mapped by D. Smolken.. License: Royalty-free for all commercial and non-commercial use.. ([source](https://github.com/sfzinstruments/dsmolken.double-bass))
+- [`wavedit-online`](https://github.com/smpldsnds/wavedit-online): A growing library of free wavetable banks shared by WaveEdit. License: [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/). ([source](https://waveeditonline.com/))
 - [`sfzinstruments-splendid-grand-piano`](https://github.com/smpldsnds/sfzinstruments-splendid-grand-piano): AKAI Steinway samples with 4 velocity layers. License: [Public Domain](https://creativecommons.org/share-your-work/public-domain/). ([source](https://github.com/sfzinstruments/SplendidGrandPiano))
 - [`hydrogen-drum-samples`](https://github.com/smpldsnds/hydrogen-drum-samples): Drum samples from the Hydrogen drum machine project. License: [GPLv2+](https://github.com/hydrogen-music/hydrogen/blob/master/COPYING). ([source](https://github.com/hydrogen-music/hydrogen))
 - [`sfzinstruments-greg-sullivan-e-pianos`](https://github.com/smpldsnds/sfzinstruments-greg-sullivan-e-pianos): Greg Sullivan's electric pianos. License: [CC 3.0 Unported](http://creativecommons.org/licenses/by/3.0/). ([source](https://github.com/sfzinstruments/GregSullivan.E-Pianos))
